@@ -6,3 +6,25 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
+#login-area h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+    padding-top: 70px;
+}
+
+#submit-area {
+    margin-top: 50px;
+    padding: 50px;
+    box-shadow: 5px 8px 14px gray;
+    border-radius: 10px;
+}
+
+#submit-area h4 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+#transaction-area {
+    display: none;
+}
