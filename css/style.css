@@ -13,7 +13,7 @@ html {
     padding-top: 70px;
 }
 
-#submit-area {
+.submit-area {
     margin-top: 50px;
     padding: 50px;
     box-shadow: 5px 8px 14px gray;
@@ -27,4 +27,24 @@ html {
 
 #transaction-area {
     display: none;
+    margin-top: 100px;
+}
+
+.deposit {
+    background-color: slateblue;
+}
+
+.withdraw {
+    background-color: lightsalmon;
+}
+
+.balance {
+    background-color: orange;
+}
+
+.status {
+    margin: 0 20px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #ffffff;
 }
